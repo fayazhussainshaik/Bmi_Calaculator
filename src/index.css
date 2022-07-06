@@ -1,25 +1,32 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.app{
+.app {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
+  background: rgba(144, 235, 228, 0.3);
 }
 
-.container{
+.container {
   box-shadow: 0px 0px 12px #ccc;
   border-radius: 15px;
   padding: 1rem;
+  background-color: rgb(232, 62, 15, 0.3);
 }
 
-input{
+.label 
+{
+  font-weight: bold;
+}
+
+input {
   width: 100%;
   font-size: 1.2rem;
   padding: 8px 4px;
@@ -27,9 +34,10 @@ input{
   border-radius: 8px;
 }
 
-.btn{
+.btn {
   display: block;
   width: 100%;
+  font-weight: bold;
   font-size: 1.2rem;
   margin: 8px 0;
   padding: 10px 0;
@@ -40,17 +48,17 @@ input{
   cursor: pointer;
 }
 
-.btn-outline{
+.btn-outline {
   background-color: #fff;
   color: #333;
 }
 
-.center{
+.center {
   text-align: center;
   margin: 24px 0;
 }
 
-p{
+p {
   margin: 10px 0;
 }
 
