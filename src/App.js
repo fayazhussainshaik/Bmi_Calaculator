@@ -52,11 +52,11 @@ let reload = () =>{
       <div className='container'>
         <h2 className='center'>BMI CALCULATOR</h2>
         <form onSubmit={calcBmi}>
-          <div>
+          <div className='label'>
             <label>WEIGHT (Kg)</label>
             <input value={weight} onChange={(e)=> setWeight(e.target.value)} />
           </div>
-          <div>
+          <div className='label'>
             <label>HEIGHT (Cm)</label>
             <input value={height} onChange={(event)=> setHeight(event.target.value)} />
           </div>
